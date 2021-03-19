@@ -1,4 +1,5 @@
 import { Arguments, Command, yargs } from "./deps.ts";
+// import { format } from "./reqs.ts";
 import { version } from "./version.ts";
 
 // yargs(Deno.args)
@@ -19,6 +20,11 @@ program.version(version);
 
 program
     .option("-c, --config <FILE>", "load configuration file")
-    .option("-v, --verbose", "enable verbose mode")
+    .option("-v, --verbose", "enable verbose mode");
 
-program.parse(Deno.args)
+program
+    .command("new", "create a new session");
+
+program.parse(Deno.args);
+
+// console.log(format(new Date(), "dd/MM/yyyy"));
