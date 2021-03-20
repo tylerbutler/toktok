@@ -1,6 +1,6 @@
-import { DataObject, DataObjectFactory, SharedMap } from "./deps.ts";
+import { fluidFrameworkAqueduct, SharedMap } from "./deps.ts";
 
-export class TalkDataObject extends DataObject {
+export class TalkDataObject extends fluidFrameworkAqueduct.DataObject {
     public get IFluidHTMLView() {
         return this;
     }
@@ -10,7 +10,7 @@ export class TalkDataObject extends DataObject {
     /**
      * This is where you define all which Distributed Data Structures your component will use
      */
-    private static readonly factory = new DataObjectFactory(
+    private static readonly factory = new fluidFrameworkAqueduct.DataObjectFactory(
         TalkDataObject.ObjectIdentifier,
         TalkDataObject,
         [SharedMap.getFactory()],
