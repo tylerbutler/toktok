@@ -1,7 +1,7 @@
 {
   "imports": {
-    "@fluid-experimental/fluid-static": "https://ga.jspm.io/npm:@fluid-experimental/fluid-static@0.36.0/dist/index.js",
-    "@fluidframework/aqueduct": "https://ga.jspm.io/npm:@fluidframework/aqueduct@0.36.0/dist/index.js"
+    "@fluid-experimental/fluid-static": "https://ga.jspm.io/npm:@fluid-experimental/fluid-static@0.36.0/lib/index.js",
+    "@fluidframework/aqueduct": "https://cdn.skypack.dev/@fluidframework/aqueduct@0.35.6/lib/index.js"
   },
   "scopes": {
     "https://ga.jspm.io/": {
@@ -125,7 +125,7 @@
       "url": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/url.js",
       "util": "https://ga.jspm.io/npm:util@0.12.3/util.js",
       "util/support/isBuffer.js": "https://ga.jspm.io/npm:util@0.12.3/support/isBufferBrowser.js",
-      "uuid": "https://ga.jspm.io/npm:uuid@8.3.2/dist/esm-browser/index.js",
+      "uuid": "https://unpkg.com/uuid@8.3.2/dist/esm-browser/index.js",
       "which-typed-array": "https://ga.jspm.io/npm:which-typed-array@1.1.4/index.js",
       "ws": "https://ga.jspm.io/npm:ws@7.4.4/browser.js",
       "xmlhttprequest-ssl": "https://ga.jspm.io/npm:xmlhttprequest-ssl@1.5.5/lib/XMLHttpRequest.js",

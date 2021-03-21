@@ -1,6 +1,14 @@
-import { Arguments, Command, yargs } from "./deps.ts";
+import {
+//Aqueduct,
+ Arguments,
+  Command,
+  SharedMap,
+   yargs,
+    } from "./deps.ts";
 // import { format } from "./reqs.ts";
 import { version } from "./version.ts";
+
+console.log(JSON.stringify(SharedMap));
 
 // yargs(Deno.args)
 //     .command("download <files...>", "download a list of files", (yargs: any) => {
@@ -26,5 +34,3 @@ program
     .command("new", "create a new session");
 
 program.parse(Deno.args);
-
-// console.log(format(new Date(), "dd/MM/yyyy"));
