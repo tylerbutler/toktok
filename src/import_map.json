@@ -1,185 +1,47 @@
 {
   "imports": {
-    "@fluid-experimental/fluid-static": "https://ga.jspm.io/npm:@fluid-experimental/fluid-static@0.36.0/dist/index.js",
-    "@fluidframework/aqueduct": "https://ga.jspm.io/npm:@fluidframework/aqueduct@0.36.0/dist/index.js"
+    "@fluidframework/aqueduct": "https://ga.jspm.io/npm:@fluidframework/aqueduct@0.35.6/dist/index.js",
+    "@fluidframework/map": "https://ga.jspm.io/npm:@fluidframework/map@0.35.6/dist/index.js"
   },
   "scopes": {
     "https://ga.jspm.io/": {
-      "@fluid-experimental/get-container": "https://ga.jspm.io/npm:@fluid-experimental/get-container@0.36.0/dist/index.js",
-      "@fluidframework/agent-scheduler": "https://ga.jspm.io/npm:@fluidframework/agent-scheduler@0.36.0/dist/index.js",
-      "@fluidframework/common-utils": "https://ga.jspm.io/npm:@fluidframework/common-utils@0.28.0/dist/index.js",
-      "@fluidframework/common-utils/dist/indexNode.js": "https://ga.jspm.io/npm:@fluidframework/common-utils@0.28.0/dist/indexBrowser.js",
-      "@fluidframework/container-definitions": "https://ga.jspm.io/npm:@fluidframework/container-definitions@0.36.0/dist/index.js",
-      "@fluidframework/container-loader": "https://ga.jspm.io/npm:@fluidframework/container-loader@0.36.0/dist/index.js",
-      "@fluidframework/container-runtime": "https://ga.jspm.io/npm:@fluidframework/container-runtime@0.36.0/dist/index.js",
-      "@fluidframework/container-runtime-definitions": "https://ga.jspm.io/npm:@fluidframework/container-runtime-definitions@0.36.0/dist/index.js",
-      "@fluidframework/container-utils": "https://ga.jspm.io/npm:@fluidframework/container-utils@0.36.0/dist/index.js",
-      "@fluidframework/core-interfaces": "https://ga.jspm.io/npm:@fluidframework/core-interfaces@0.36.0/dist/index.js",
-      "@fluidframework/datastore": "https://ga.jspm.io/npm:@fluidframework/datastore@0.36.0/dist/index.js",
-      "@fluidframework/driver-base": "https://ga.jspm.io/npm:@fluidframework/driver-base@0.36.0/dist/index.js",
-      "@fluidframework/driver-definitions": "https://ga.jspm.io/npm:@fluidframework/driver-definitions@0.36.0/dist/index.js",
-      "@fluidframework/driver-utils": "https://ga.jspm.io/npm:@fluidframework/driver-utils@0.36.0/dist/index.js",
-      "@fluidframework/garbage-collector": "https://ga.jspm.io/npm:@fluidframework/garbage-collector@0.36.0/dist/index.js",
-      "@fluidframework/local-driver": "https://ga.jspm.io/npm:@fluidframework/local-driver@0.36.0/dist/index.js",
-      "@fluidframework/map": "https://ga.jspm.io/npm:@fluidframework/map@0.36.0/dist/index.js",
-      "@fluidframework/protocol-base": "https://ga.jspm.io/npm:@fluidframework/protocol-base@0.1021.0/dist/index.js",
-      "@fluidframework/protocol-definitions": "https://ga.jspm.io/npm:@fluidframework/protocol-definitions@0.1021.0/dist/index.js",
-      "@fluidframework/register-collection": "https://ga.jspm.io/npm:@fluidframework/register-collection@0.36.0/dist/index.js",
-      "@fluidframework/request-handler": "https://ga.jspm.io/npm:@fluidframework/request-handler@0.36.0/dist/index.js",
-      "@fluidframework/routerlicious-driver": "https://ga.jspm.io/npm:@fluidframework/routerlicious-driver@0.36.0/dist/index.js",
-      "@fluidframework/runtime-definitions": "https://ga.jspm.io/npm:@fluidframework/runtime-definitions@0.36.0/dist/index.js",
-      "@fluidframework/runtime-utils": "https://ga.jspm.io/npm:@fluidframework/runtime-utils@0.36.0/dist/index.js",
-      "@fluidframework/server-lambdas": "https://ga.jspm.io/npm:@fluidframework/server-lambdas@0.1021.0/dist/index.js",
-      "@fluidframework/server-local-server": "https://ga.jspm.io/npm:@fluidframework/server-local-server@0.1021.0/dist/index.js",
-      "@fluidframework/server-memory-orderer": "https://ga.jspm.io/npm:@fluidframework/server-memory-orderer@0.1021.0/dist/index.js",
-      "@fluidframework/server-services-client": "https://ga.jspm.io/npm:@fluidframework/server-services-client@0.1021.0/dist/index.js",
-      "@fluidframework/server-services-core": "https://ga.jspm.io/npm:@fluidframework/server-services-core@0.1021.0/dist/index.js",
-      "@fluidframework/server-test-utils": "https://ga.jspm.io/npm:@fluidframework/server-test-utils@0.1021.0/dist/index.js",
-      "@fluidframework/shared-object-base": "https://ga.jspm.io/npm:@fluidframework/shared-object-base@0.36.0/dist/index.js",
-      "@fluidframework/synthesize": "https://ga.jspm.io/npm:@fluidframework/synthesize@0.36.0/dist/index.js",
-      "@fluidframework/telemetry-utils": "https://ga.jspm.io/npm:@fluidframework/telemetry-utils@0.36.0/dist/index.js",
-      "@fluidframework/test-runtime-utils": "https://ga.jspm.io/npm:@fluidframework/test-runtime-utils@0.36.0/dist/index.js",
-      "@fluidframework/tinylicious-driver": "https://ga.jspm.io/npm:@fluidframework/tinylicious-driver@0.36.0/dist/index.js",
-      "after": "https://ga.jspm.io/npm:after@0.8.2/index.js",
-      "array-filter": "https://ga.jspm.io/npm:array-filter@1.0.0/index.js",
-      "arraybuffer.slice": "https://ga.jspm.io/npm:arraybuffer.slice@0.0.7/index.js",
-      "assert": "https://ga.jspm.io/npm:assert@2.0.0/build/assert.js",
-      "async": "https://ga.jspm.io/npm:async@2.6.3/dist/async.js",
-      "available-typed-arrays": "https://ga.jspm.io/npm:available-typed-arrays@1.0.2/index.js",
-      "axios": "https://ga.jspm.io/npm:axios@0.21.1/index.js",
-      "axios/lib/adapters/http.js": "https://ga.jspm.io/npm:axios@0.21.1/lib/adapters/xhr.js",
-      "backo2": "https://ga.jspm.io/npm:backo2@1.0.2/index.js",
-      "base64-arraybuffer": "https://ga.jspm.io/npm:base64-arraybuffer@0.1.4/lib/base64-arraybuffer.js",
+      "@fluidframework/agent-scheduler": "https://ga.jspm.io/npm:@fluidframework/agent-scheduler@0.35.6/dist/index.js",
+      "@fluidframework/common-utils": "https://ga.jspm.io/npm:@fluidframework/common-utils@0.27.2/dist/index.js",
+      "@fluidframework/common-utils/dist/indexNode.js": "https://ga.jspm.io/npm:@fluidframework/common-utils@0.27.2/dist/indexBrowser.js",
+      "@fluidframework/container-definitions": "https://ga.jspm.io/npm:@fluidframework/container-definitions@0.35.6/dist/index.js",
+      "@fluidframework/container-runtime": "https://ga.jspm.io/npm:@fluidframework/container-runtime@0.35.6/dist/index.js",
+      "@fluidframework/container-runtime-definitions": "https://ga.jspm.io/npm:@fluidframework/container-runtime-definitions@0.35.6/dist/index.js",
+      "@fluidframework/container-utils": "https://ga.jspm.io/npm:@fluidframework/container-utils@0.35.6/dist/index.js",
+      "@fluidframework/core-interfaces": "https://ga.jspm.io/npm:@fluidframework/core-interfaces@0.35.6/dist/index.js",
+      "@fluidframework/datastore": "https://ga.jspm.io/npm:@fluidframework/datastore@0.35.6/dist/index.js",
+      "@fluidframework/driver-definitions": "https://ga.jspm.io/npm:@fluidframework/driver-definitions@0.35.6/dist/index.js",
+      "@fluidframework/driver-utils": "https://ga.jspm.io/npm:@fluidframework/driver-utils@0.35.6/dist/index.js",
+      "@fluidframework/garbage-collector": "https://ga.jspm.io/npm:@fluidframework/garbage-collector@0.35.6/dist/index.js",
+      "@fluidframework/protocol-base": "https://ga.jspm.io/npm:@fluidframework/protocol-base@0.1019.0/dist/index.js",
+      "@fluidframework/protocol-definitions": "https://ga.jspm.io/npm:@fluidframework/protocol-definitions@0.1019.0/dist/index.js",
+      "@fluidframework/register-collection": "https://ga.jspm.io/npm:@fluidframework/register-collection@0.35.6/dist/index.js",
+      "@fluidframework/request-handler": "https://ga.jspm.io/npm:@fluidframework/request-handler@0.35.6/dist/index.js",
+      "@fluidframework/runtime-definitions": "https://ga.jspm.io/npm:@fluidframework/runtime-definitions@0.35.6/dist/index.js",
+      "@fluidframework/runtime-utils": "https://ga.jspm.io/npm:@fluidframework/runtime-utils@0.35.6/dist/index.js",
+      "@fluidframework/shared-object-base": "https://ga.jspm.io/npm:@fluidframework/shared-object-base@0.35.6/dist/index.js",
+      "@fluidframework/synthesize": "https://ga.jspm.io/npm:@fluidframework/synthesize@0.35.6/dist/index.js",
+      "@fluidframework/telemetry-utils": "https://ga.jspm.io/npm:@fluidframework/telemetry-utils@0.35.6/dist/index.js",
       "base64-js": "https://ga.jspm.io/npm:base64-js@1.5.1/index.js",
-      "blob": "https://ga.jspm.io/npm:blob@0.0.5/index.js",
-      "buffer": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/buffer.js",
-      "buffer-equal-constant-time": "https://ga.jspm.io/npm:buffer-equal-constant-time@1.0.1/index.js",
-      "call-bind": "https://ga.jspm.io/npm:call-bind@1.0.2/index.js",
-      "call-bind/callBound": "https://ga.jspm.io/npm:call-bind@1.0.2/callBound.js",
-      "child_process": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/child_process.js",
-      "component-bind": "https://ga.jspm.io/npm:component-bind@1.0.0/index.js",
-      "component-emitter": "https://ga.jspm.io/npm:component-emitter@1.3.0/index.js",
-      "component-inherit": "https://ga.jspm.io/npm:component-inherit@0.0.3/index.js",
-      "crypto": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/crypto.js",
       "debug": "https://ga.jspm.io/npm:debug@4.3.2/src/browser.js",
-      "define-properties": "https://ga.jspm.io/npm:define-properties@1.1.3/index.js",
       "double-ended-queue": "https://ga.jspm.io/npm:double-ended-queue@2.1.0-0/js/deque.js",
-      "ecdsa-sig-formatter": "https://ga.jspm.io/npm:ecdsa-sig-formatter@1.0.11/src/ecdsa-sig-formatter.js",
-      "engine.io-client": "https://ga.jspm.io/npm:engine.io-client@3.5.1/lib/index.js",
-      "engine.io-client/lib/globalThis.js": "https://ga.jspm.io/npm:engine.io-client@3.5.1/lib/globalThis.browser.js",
-      "engine.io-parser": "https://ga.jspm.io/npm:engine.io-parser@2.2.1/lib/browser.js",
-      "es-abstract/helpers/getOwnPropertyDescriptor": "https://ga.jspm.io/npm:es-abstract@1.18.0/helpers/getOwnPropertyDescriptor.js",
-      "es6-object-assign": "https://ga.jspm.io/npm:es6-object-assign@1.1.0/index.js",
       "events": "https://ga.jspm.io/npm:events@3.3.0/events.js",
-      "foreach": "https://ga.jspm.io/npm:foreach@2.0.5/index.js",
-      "fs": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/fs.js",
-      "function-bind": "https://ga.jspm.io/npm:function-bind@1.1.1/index.js",
-      "get-intrinsic": "https://ga.jspm.io/npm:get-intrinsic@1.1.1/index.js",
-      "has": "https://ga.jspm.io/npm:has@1.0.3/src/index.js",
-      "has-binary2": "https://ga.jspm.io/npm:has-binary2@1.0.3/index.js",
-      "has-symbols": "https://ga.jspm.io/npm:has-symbols@1.0.2/index.js",
-      "http": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/http.js",
-      "https": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/https.js",
-      "indexof": "https://ga.jspm.io/npm:indexof@0.0.1/index.js",
-      "inherits": "https://ga.jspm.io/npm:inherits@2.0.4/inherits_browser.js",
-      "is-arguments": "https://ga.jspm.io/npm:is-arguments@1.1.0/index.js",
-      "is-generator-function": "https://ga.jspm.io/npm:is-generator-function@1.0.8/index.js",
-      "is-nan": "https://ga.jspm.io/npm:is-nan@1.3.2/index.js",
-      "is-typed-array": "https://ga.jspm.io/npm:is-typed-array@1.1.5/index.js",
-      "isarray": "https://ga.jspm.io/npm:isarray@2.0.1/index.js",
-      "isomorphic-ws": "https://ga.jspm.io/npm:isomorphic-ws@4.0.1/browser.js",
-      "json-stringify-safe": "https://ga.jspm.io/npm:json-stringify-safe@5.0.1/stringify.js",
-      "jsonwebtoken": "https://ga.jspm.io/npm:jsonwebtoken@8.5.1/index.js",
-      "jsrsasign": "https://ga.jspm.io/npm:jsrsasign@10.1.13/lib/jsrsasign.js",
-      "jwa": "https://ga.jspm.io/npm:jwa@1.4.1/index.js",
-      "jws": "https://ga.jspm.io/npm:jws@3.2.2/index.js",
-      "jwt-decode": "https://ga.jspm.io/npm:jwt-decode@3.1.2/build/jwt-decode.cjs.js",
-      "lodash": "https://ga.jspm.io/npm:lodash@4.17.21/lodash.js",
-      "lodash.includes": "https://ga.jspm.io/npm:lodash.includes@4.3.0/index.js",
-      "lodash.isboolean": "https://ga.jspm.io/npm:lodash.isboolean@3.0.3/index.js",
-      "lodash.isinteger": "https://ga.jspm.io/npm:lodash.isinteger@4.0.4/index.js",
-      "lodash.isnumber": "https://ga.jspm.io/npm:lodash.isnumber@3.0.3/index.js",
-      "lodash.isplainobject": "https://ga.jspm.io/npm:lodash.isplainobject@4.0.6/index.js",
-      "lodash.isstring": "https://ga.jspm.io/npm:lodash.isstring@4.0.1/index.js",
-      "lodash.once": "https://ga.jspm.io/npm:lodash.once@4.1.1/index.js",
       "lodash/cloneDeep": "https://ga.jspm.io/npm:lodash@4.17.21/cloneDeep.js",
-      "lodash/merge": "https://ga.jspm.io/npm:lodash@4.17.21/merge.js",
-      "moniker": "https://ga.jspm.io/npm:moniker@0.1.2/lib/moniker.js",
       "ms": "https://ga.jspm.io/npm:ms@2.1.2/index.js",
-      "object-is": "https://ga.jspm.io/npm:object-is@1.1.5/index.js",
-      "object-keys": "https://ga.jspm.io/npm:object-keys@1.1.1/index.js",
-      "parseqs": "https://ga.jspm.io/npm:parseqs@0.0.6/index.js",
-      "parseuri": "https://ga.jspm.io/npm:parseuri@0.0.6/index.js",
-      "path": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/path.js",
       "path-browserify": "https://ga.jspm.io/npm:path-browserify@1.0.1/index.js",
       "process": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/process.js",
-      "querystring": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/querystring.js",
-      "safe-buffer": "https://ga.jspm.io/npm:safe-buffer@5.2.1/index.js",
-      "semver": "https://ga.jspm.io/npm:semver@6.3.0/semver.js",
-      "sillyname": "https://ga.jspm.io/npm:sillyname@0.1.0/index.js",
-      "socket.io-client": "https://ga.jspm.io/npm:socket.io-client@2.4.0/lib/index.js",
-      "socket.io-parser": "https://ga.jspm.io/npm:socket.io-parser@3.3.2/index.js",
-      "stream": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/stream.js",
-      "string-hash": "https://ga.jspm.io/npm:string-hash@1.1.3/index.js",
-      "to-array": "https://ga.jspm.io/npm:to-array@0.1.4/index.js",
       "url": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/url.js",
-      "util": "https://ga.jspm.io/npm:util@0.12.3/util.js",
-      "util/support/isBuffer.js": "https://ga.jspm.io/npm:util@0.12.3/support/isBufferBrowser.js",
-      "uuid": "https://ga.jspm.io/npm:uuid@8.3.2/dist/esm-browser/index.js",
-      "which-typed-array": "https://ga.jspm.io/npm:which-typed-array@1.1.4/index.js",
-      "ws": "https://ga.jspm.io/npm:ws@7.4.4/browser.js",
-      "xmlhttprequest-ssl": "https://ga.jspm.io/npm:xmlhttprequest-ssl@1.5.5/lib/XMLHttpRequest.js",
-      "yeast": "https://ga.jspm.io/npm:yeast@0.1.2/index.js"
+      "uuid": "https://ga.jspm.io/npm:uuid@8.3.2/dist/esm-browser/index.js"
     },
-    "https://ga.jspm.io/npm:@fluidframework/agent-scheduler@0.36.0/": {
+    "https://ga.jspm.io/npm:@fluidframework/agent-scheduler@0.35.6/": {
       "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
     },
-    "https://ga.jspm.io/npm:@fluidframework/container-loader@0.36.0/": {
+    "https://ga.jspm.io/npm:@fluidframework/container-runtime@0.35.6/": {
       "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
-    },
-    "https://ga.jspm.io/npm:@fluidframework/container-runtime@0.36.0/": {
-      "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
-    },
-    "https://ga.jspm.io/npm:@fluidframework/local-driver@0.36.0/": {
-      "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
-    },
-    "https://ga.jspm.io/npm:@fluidframework/server-lambdas@0.1021.0/": {
-      "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
-    },
-    "https://ga.jspm.io/npm:@fluidframework/server-local-server@0.1021.0/": {
-      "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
-    },
-    "https://ga.jspm.io/npm:@fluidframework/server-memory-orderer@0.1021.0/": {
-      "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js",
-      "ws": "https://ga.jspm.io/npm:ws@6.2.1/browser.js"
-    },
-    "https://ga.jspm.io/npm:@fluidframework/server-test-utils@0.1021.0/": {
-      "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
-    },
-    "https://ga.jspm.io/npm:@fluidframework/test-runtime-utils@0.36.0/": {
-      "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
-    },
-    "https://ga.jspm.io/npm:debug@3.1.0/": {
-      "ms": "https://ga.jspm.io/npm:ms@2.0.0/index.js"
-    },
-    "https://ga.jspm.io/npm:engine.io-client@3.5.1/": {
-      "debug": "https://ga.jspm.io/npm:debug@3.1.0/src/browser.js"
-    },
-    "https://ga.jspm.io/npm:jsonwebtoken@8.5.1/": {
-      "ms": "https://ga.jspm.io/npm:ms@2.1.3/index.js",
-      "semver": "https://ga.jspm.io/npm:semver@5.7.1/semver.js"
-    },
-    "https://ga.jspm.io/npm:jwa@1.4.1/": {
-      "util": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/util.js"
-    },
-    "https://ga.jspm.io/npm:jws@3.2.2/": {
-      "util": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/util.js"
-    },
-    "https://ga.jspm.io/npm:socket.io-client@2.4.0/": {
-      "debug": "https://ga.jspm.io/npm:debug@3.1.0/src/browser.js"
-    },
-    "https://ga.jspm.io/npm:socket.io-parser@3.3.2/": {
-      "debug": "https://ga.jspm.io/npm:debug@3.1.0/src/browser.js"
     }
   }
 }
