@@ -2,13 +2,16 @@ import {
 //Aqueduct,
  Arguments,
   Command,
-  SharedMap,
+//   SharedMap,
    yargs,
+   Fluid,
+    KeyValueDataObject,
+    TinyliciousService,
     } from "./deps.ts";
 // import { format } from "./reqs.ts";
 import { version } from "./version.ts";
 
-console.log(JSON.stringify(SharedMap));
+console.log(JSON.stringify(Fluid));
 
 // yargs(Deno.args)
 //     .command("download <files...>", "download a list of files", (yargs: any) => {

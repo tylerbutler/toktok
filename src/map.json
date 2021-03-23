@@ -2,6 +2,9 @@
   "imports": {
     "@fluidframework/aqueduct": "https://cdn.skypack.dev/@fluidframework/aqueduct@^0.35.7-20343?min",
     "@fluidframework/map": "https://cdn.skypack.dev/@fluidframework/map@^0.35.7-20343?min",
+    "@fluid-experimental/data-objects": "https://cdn.skypack.dev/@fluid-experimental/data-objects@^0.35.7-20343?min&dts",
+    "@fluid-experimental/fluid-static": "https://cdn.skypack.dev/@fluid-experimental/fluid-static@^0.35.7-20343?min&dts",
+    "@fluid-experimental/get-container": "https://cdn.skypack.dev/@fluid-experimental/get-container@^0.35.7-20343?min&dts",
     "punycode": "https://deno.land/x/punycode/punycode.js"
   }
 }
