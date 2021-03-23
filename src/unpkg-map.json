@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "uuid": "https://ga.jspm.io/npm:uuid@8.3.2/dist/esm-browser/index.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "uuid": "https://ga.jspm.io/npm:uuid@8.3.2/dist/esm-browser/index.js"
+    },
+    "https://ga.jspm.io/npm:@fluidframework/agent-scheduler@0.35.6/": {
+      "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
+    },
+    "https://ga.jspm.io/npm:@fluidframework/container-runtime@0.35.6/": {
+      "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.7/nodelibs/events.js"
+    }
+  }
+}
