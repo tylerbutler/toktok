@@ -38,7 +38,7 @@
   "https://cdn.skypack.dev/-/react@v17.0.1-yH0aYV1FOvoIPeKBbHxg/dist=es2020,mode=types/global.d.ts": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
   "https://cdn.skypack.dev/-/react@v17.0.1-yH0aYV1FOvoIPeKBbHxg/dist=es2020,mode=types/index.d.ts": "fa9afef785db24a93e3ec75472192538be8323bcb654cf607ada27b8ce8ba526",
   "https://cdn.skypack.dev/-/uuid@v8.3.2-XAQ9X05vJqvKpZccxFGc/dist=es2020,mode=imports/optimized/uuid.js": "2269db8209b0d0e0430b48430585ef0dfe4388c020b7d371643f318a3b795164",
-  "https://cdn.skypack.dev/@fluidframework/aqueduct@0.35.6": "f87630df64d633e089eac31304591cfd0b80414f29a3e3f1f2da91e1d1f16171",
+  "https://cdn.skypack.dev/@fluidframework/aqueduct@^0.35.0": "f87630df64d633e089eac31304591cfd0b80414f29a3e3f1f2da91e1d1f16171",
   "https://cdn.skypack.dev/@fluidframework/map@^0.35.0": "64a350f39b2f4db892f0d587737d3b71b2074c141d492cc9a0321e487476ecc9",
   "https://cdn.skypack.dev/error/node:punycode?from=@fluidframework/driver-utils": "89a7bda8618cdb9b1c9a9c3f94b9fb88f2f836be70b8b4a066e8303f39fbc9d8",
   "https://cdn.skypack.dev/react?dts": "c00b9460c015447726d92c2f7baae3d97a80ac3b000d2db7d528a0b04bd9aa82",

@@ -13,7 +13,7 @@ import { DataObject, DataObjectFactory } from "https://cdn.skypack.dev/@fluidfra
 // import fluidFrameworkAqueduct from "https://dev.jspm.io/@fluidframework/aqueduct@0.35.0";
 
 import { SharedDirectory, SharedMap } from "https://cdn.skypack.dev/@fluidframework/map@^0.35.0";
-import SharedMap from "https://dev.jspm.io/@fluidframework/map@0.35.0";
+// import SharedMap from "https://dev.jspm.io/@fluidframework/map@0.35.0";
 
 // import fluidFrameworkDriverUtils from "https://cdn.skypack.dev/@fluidframework/driver-utils@^0.35.0";
 // import vorpal from "https://cdn.skypack.dev/vorpal?dts";
