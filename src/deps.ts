@@ -8,11 +8,12 @@ import React from "https://cdn.skypack.dev/react?dts";
 import ReactDOM from "https://cdn.skypack.dev/react?dts";
 
 // import fluidExperimentalDataObjects from "https://cdn.skypack.dev/@fluid-experimental/data-objects?dts";
-import { DataObject, DataObjectFactory } from "https://cdn.skypack.dev/@fluidframework/aqueduct@^0.35.0";
-// import { DataObject, DataObjectFactory } from "@fluidframework/aqueduct";
+// import { DataObject, DataObjectFactory } from "https://cdn.skypack.dev/@fluidframework/aqueduct@^0.35.0?dts&min";
+import { DataObject, DataObjectFactory } from "@fluidframework/aqueduct";
 // import fluidFrameworkAqueduct from "https://dev.jspm.io/@fluidframework/aqueduct@0.35.0";
 
-import { SharedDirectory, SharedMap } from "https://cdn.skypack.dev/@fluidframework/map@^0.35.0";
+// import { SharedDirectory, SharedMap } from "https://cdn.skypack.dev/@fluidframework/map@^0.35.0?dts&min";
+import { SharedDirectory, SharedMap } from "@fluidframework/map";
 // import SharedMap from "https://dev.jspm.io/@fluidframework/map@0.35.0";
 
 // import fluidFrameworkDriverUtils from "https://cdn.skypack.dev/@fluidframework/driver-utils@^0.35.0";

@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@fluidframework/aqueduct": "https://cdn.skypack.dev/@fluidframework/aqueduct@^0.35.7-20343?min",
+    "@fluidframework/map": "https://cdn.skypack.dev/@fluidframework/map@^0.35.7-20343?min",
+    "punycode": "https://deno.land/x/punycode/punycode.js"
+  }
+}
